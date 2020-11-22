@@ -1,6 +1,0 @@
-endpoint: https://us1.prisma.sh/grandnet1225-eaa572/insta-clone/dev
-datamodel: datamodel.prisma
-
-generate:
-  - generator: javascript-client
-    output: ./generated/prisma-client/
