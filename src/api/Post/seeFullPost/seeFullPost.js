@@ -5,7 +5,7 @@ export default {
   Query: {
     seeFullPost: async (_, args) => {
       const { id } = args;
-      console.log(id);
+
       const post = await prisma.post({ id });
       const comments = await prisma
         .post({ id })
